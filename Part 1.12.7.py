@@ -1,4 +1,4 @@
-def isLucky(num):
+def is_lucky(num):
     head = num[:len(num)//2]
     tail = num[len(num)//2:]
 
@@ -10,5 +10,5 @@ def isLucky(num):
     else:
         print("Обычный")
 
-isLucky("090234")
-isLucky("123456")
+is_lucky("090234")
+is_lucky("123456")

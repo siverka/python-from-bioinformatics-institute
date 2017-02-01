@@ -3,6 +3,7 @@ a = int(input("a "))
 b = int(input("b "))
 h = int(input("h "))
 
+
 def sleep(a, b, h):
     if h < a:
         print("Nedosyp")
@@ -10,6 +11,7 @@ def sleep(a, b, h):
         print("Peresyp")
     else:
         print("Norm")
+
 
 # 1.10.6
 def is_leap(n):
@@ -19,6 +21,6 @@ def is_leap(n):
         print("not leap")
 
 
-print ("test")
+print("test")
 is_leap(2100)
 is_leap(2000)

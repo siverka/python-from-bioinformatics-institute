@@ -1,5 +1,4 @@
 def table(a, b, c, d):
-
     print('', end='\t')
     for i in range(c, d+1):
         print(i, end='\t')
