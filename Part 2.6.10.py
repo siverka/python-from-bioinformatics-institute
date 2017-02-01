@@ -15,12 +15,6 @@ res = [[0 for i in range(n)] for j in range(m)]
 
 for j in range(m):
     for i in range(n):
-        res[j][i] += mtrx[(j-1) % m][i]
-        res[j][i] += mtrx[(j+1) % m][i]
-        res[j][i] += mtrx[j][(i-1) % n]
-        res[j][i] += mtrx[j][(i+1) % n]
-
-for j in range(m):
-    for i in range(n):
+        res[j][i] += mtrx[(j-1) % m][i] + mtrx[(j+1) % m][i] + mtrx[j][(i-1) % n] + mtrx[j][(i+1) % n]
         print(res[j][i], end=' ')
     print()
