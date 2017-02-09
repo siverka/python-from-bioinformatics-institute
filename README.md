@@ -1,2 +1,2 @@
 # python-from-bioinformatics-institute
-My solutions for "Программирование на Python" stepik.org course
+Мои решения задач курса "Программирование на Python" от stepik.org
